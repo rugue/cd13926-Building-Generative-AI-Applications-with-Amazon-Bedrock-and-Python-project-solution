@@ -29,10 +29,10 @@ def upload_files_to_s3(folder_path, bucket_name, prefix=""):
 
 if __name__ == "__main__":
     # Folder path
-    folder_path = "spec-sheets"
+    folder_path = folder_path = os.path.join(os.path.dirname(__file__), "spec-sheets")
     
     # S3 bucket name
-    bucket_name = "bedrock-kb-975050171524"  # Replace with your actual bucket name
+    bucket_name = "udacity-bedrock-kb-769078151975"  # Replace with your actual bucket name
     
     # S3 prefix (optional)
     prefix = "spec-sheets" 
