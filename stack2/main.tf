@@ -17,6 +17,6 @@ module "bedrock_kb" {
   aurora_text_field = "chunks"
   aurora_verctor_field = "embedding"
   aurora_username   = "adminuser"  # master username you used in Stack 1
-  aurora_secret_arn = "arn:aws:secretsmanager:us-east-1:769078151975:secret:udacity-aurora-serverless-chSsqp"
+  aurora_secret_arn = "arn:aws:secretsmanager:us-east-1:769078151975:secret:udacity-aurora-serverless-Gi6ajB"
   s3_bucket_arn    = "arn:aws:s3:::udacity-bedrock-kb-769078151975"
 }
